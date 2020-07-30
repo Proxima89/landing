@@ -1,0 +1,43 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+.banner h1 {
+  color: white;
+}
+.banner p {
+  color: white;
+  opacity: 0.9;
+  font-size: 20px;
+}
+.container {
+  width: 900px;
+  margin: auto;
+}
+.card img {
+  width: 150px;
+}
+.card p {
+  opacity: 0.9;
+}
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
